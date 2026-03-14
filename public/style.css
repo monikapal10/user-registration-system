@@ -8,7 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Card container: white box with shadow & hover effect */
+/* Card container: */
 .card {
     width: 380px;
     background: #fff;
@@ -20,7 +20,7 @@ body {
 }
 
 .card:hover {
-    transform: scale(1.02); /*slight zoom on hover*/
+    transform: scale(1.02); 
 }
 
 /* Heading styles */
@@ -39,14 +39,12 @@ input.form-control {
     padding: 10px;
 }
 
-/* Button styling */
-button {
+button {               /* Button styling */
     font-weight: 500;
     border-radius: 5px;
 }
 
-/* Password strength text */
-#strength {
+#strength {             /* Password strength text */
     font-size: 14px;
     margin-top: 5px;
     display: block;
