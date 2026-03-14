@@ -1,8 +1,10 @@
 # User Registration System (Full Stack Web Application)
 
-## Overview
+## Project Description
 
-This project is a full stack web application that allows users to register their information through a web form. The submitted data is processed by a backend server built with Node.js and Express and stored in a MongoDB database.
+This project is a full stack web application for user registration.
+Users can enter their details in a registration form and submit the data.
+The submitted information is processed by a Node.js and Express backend and stored in a MongoDB database.
 
 ## Technologies Used
 
@@ -13,33 +15,20 @@ HTML
 CSS
 JavaScript
 
-## Setup Instructions
+## How It Works
 
-Install dependencies
-
+First install the required dependencies:
 npm install
 
-Start the server
-
+Then start the server:
 npm start
 
-Open the application in your browser
-
+After running the server, open the browser and go to:
 http://localhost:3000
 
-## API Routes
+The user registration form will open.
+Users can enter their details and submit the form.
+When the form is submitted, the data is sent to the backend API and saved in the database.
 
-Test API
-
-http://localhost:3000/test
-
-User Registration API
-
-POST /submit
-
-## Testing
-
-The API can be tested using a browser or tools such as Postman or Thunder Client.
-
-Author
+## Author
 Monika Pal
